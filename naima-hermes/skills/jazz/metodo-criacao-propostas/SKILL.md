@@ -1,0 +1,32 @@
+---
+name: metodo-criacao-propostas
+description: Pipeline completo em 7 etapas pra transformar uma call de venda em um site de proposta comercial em HTML estático, hospedado em subdomínio único do cliente. Cada proposta vira um link próprio, com layout premium, abas, simuladores e CTA persistente. Metodologia padrão Jazz Automations. Use quando o Chefe pedir esse tipo de tarefa. Passo-a-passo completo: github.com/<GITHUB_USER>/metodo-criacao-propostas e https://skills.{{DONO}}.ai/#metodo-criacao-propostas.
+---
+
+# Criação de Propostas Comerciais em HTML
+
+> Metodologia padrão Jazz Automations #1/11. Tarefa operacional: a Naima delega (Juliana coordena), valida e entrega pro Chefe.
+
+Pipeline completo em 7 etapas pra transformar uma call de venda em um site de proposta comercial em HTML estático, hospedado em subdomínio único do cliente. Cada proposta vira um link próprio, com layout premium, abas, simuladores e CTA persistente.
+
+## Quando usar
+- Você fechou uma call e precisa entregar a proposta em formato premium
+- Quer que cada cliente receba um link único (cliente.seudominio.com)
+- Quer fugir do PDF travado
+- Quer dashboard interno pra trackear pipeline
+
+## Entregáveis
+- Site HTML estático single-file (layout escuro/claro)
+- Subdomínio próprio via DNS Cloudflare
+- Deploy automático Vercel
+- Dashboard interno de pipeline
+- Métricas de conversão por proposta
+
+## Tags
+vendas, html, vercel
+
+## Passo-a-passo completo (LOCAL — fonte canônica)
+O passo-a-passo detalhado completo (etapas + código) está em **`./reference.md`** (nesta skill).
+LER `reference.md` antes de executar este método.
+
+Espelho remoto: `github.com/<GITHUB_USER>/metodo-criacao-propostas` · `https://skills.{{DONO}}.ai/#metodo-criacao-propostas`

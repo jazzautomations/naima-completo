@@ -129,6 +129,18 @@ Use `scp` (com `sshpass` se for por senha) ou abra uma sessão SSH e escreva os 
 
 Verifique com `grep -c '{{' /root/.hermes/.env` que não sobrou placeholder (tem que retornar 0).
 
+### Passo 5.5 — Etapa 3b: skills e time instalados no pacote
+
+Copie as skills do pacote para a VPS:
+
+```bash
+mkdir -p /root/.hermes/skills
+cp -r skills/jazz /root/.hermes/skills/
+ls /root/.hermes/skills/jazz/   # tem que listar 9 diretórios
+```
+
+São 9 skills: os 4 subagentes do time (juliana-ops, clone-do-dono, paulo-dev, jonathan-copy) e os 5 métodos (carrossel Instagram, landing pages, propostas comerciais, vídeo sanduíche, conectar Instagram). Com isso a Naima nasce completa — não precisa enviar documentos de treinamento pelo Telegram (a pasta `treinamento/` fica como referência).
+
 ### Passo 6 — Etapa 4: OAuth OpenAI (device flow)
 
 Esta é a etapa que conecta a conta ChatGPT do aluno. Rode na VPS dentro de um `screen` (o login pode demorar alguns minutos esperando o aluno):

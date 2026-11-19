@@ -14,15 +14,21 @@ O agente lê o `LEIA-ME-CLAUDE.md` e conduz tudo: Hermes na VPS, OAuth do ChatGP
 
 Se preferir sem git: baixe `pacote-instalacao-naima-hermes.zip` e arraste pra conversa do agente.
 
-## Treinar
+## O que já vem instalado
 
-Depois de instalada, mande os `.md` da pasta `treinamento/` pra ela pelo Telegram, um por vez, com a frase de prompt que vem no topo de cada arquivo. Ordem sugerida no `LEIA-PRIMEIRO.md`.
+9 skills e as regras completas nascem junto com ela — sem treino manual:
+
+- **Time de subagentes**: Juliana (operação/design), clone-do-dono (SDR), Paulo (dev), Jonathan (copy)
+- **Métodos**: carrossel Instagram, landing pages, propostas comerciais, vídeo sanduíche econômico, conectar Instagram via Zernio
+- **Regras completas**: segurança, personalidade, protocolo de trabalho em 3 fases, isolamento de dados, entrevista de onboarding
+
+A pasta `treinamento/` fica como referência — dá pra mandar os docs no Telegram também, se quiser o fluxo original.
 
 ## Conteúdo
 
 | Caminho | O que é |
 |---|---|
-| `naima-hermes/` | pacote de instalação descompactado (template + roteiro do agente) |
+| `naima-hermes/` | pacote de instalação descompactado (template + skills + roteiro do agente) |
 | `pacote-instalacao-naima-hermes.zip` | o mesmo pacote em zip, pra arrastar no chat |
 | `treinamento/` | 14 documentos de treinamento (regras, personalidade, subagentes, skills) |
 | `LEIA-PRIMEIRO.md` | instruções completas de instalação e treino |
